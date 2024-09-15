@@ -3,6 +3,7 @@
     "author": "kjmin-dev <kjmin.kr@gmail.com>",
     "license": "MIT",
     "description": "Study GoF design patterns in TypeScript",
+    "type": "module",
     "scripts": {
         "format": "prettier",
         "lint": "eslint",
