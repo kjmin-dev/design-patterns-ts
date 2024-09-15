@@ -17,8 +17,8 @@ describe('Adapter Pattern - Operating System with Graphic Driver', () => {
     test('It should render using OpenGL', () => {
         const driver = new OpenGLDriver();
         const adapter = new OpenGLAdapter(driver);
-        const osWithDirectX = new OperatingSystem(adapter);
-        const result = osWithDirectX.display('Test1');
+        const osWithOpenGL = new OperatingSystem(adapter);
+        const result = osWithOpenGL.display('Test1');
         expect(result).toStrictEqual('Rendering Test1 using OpenGL');
     });
 });
