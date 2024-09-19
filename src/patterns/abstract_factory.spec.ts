@@ -1,4 +1,3 @@
-import { describe, it, expect, vi } from 'vitest';
 import { AWSResourceFactory, GCPResourceFactory } from './abstract_factory';
 
 describe('Cloud Resource Factory Tests', () => {
