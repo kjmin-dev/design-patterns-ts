@@ -1,3 +1,5 @@
+import { consoleWithTime } from '../test-utils/console';
+
 export interface IComputeInstance {
     start(): void;
     stop(): void;
@@ -11,9 +13,6 @@ export interface IFactory {
     createComputeInstance(): IComputeInstance;
     createStorageBucket(): IStorageBucket;
 }
-
-const consoleWithTime = (text: string) =>
-    console.log(`[${new Date().toISOString()}]: ${text}`);
 
 class AWSComputeInstance implements IComputeInstance {
     start() {
