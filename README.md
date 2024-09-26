@@ -15,7 +15,7 @@ The purpose of this project is to provide simple & understandable examples of co
 #### Structural Patterns
 
 -   [x] **Adapter**: Provides an interface for incompatible objects to work together.
--   [ ] **Decorator**
+-   [x] **Decorator**: Allows behavior to be added to individual objects, either statically or dynamically, without affecting the behavior of other objects from the same class.
 -   [ ] **Facade**
 
 #### Behavioral Patterns
