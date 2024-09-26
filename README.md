@@ -10,7 +10,7 @@ The purpose of this project is to provide simple & understandable examples of co
 -   [x] **Abstract Factory**: Provides an interface for creating related or dependent objects without specifying their concrete classes.
 -   [ ] **Factory Method**:
 -   [ ] **Singleton**:
--   [ ] **Builder**:
+-   [x] **Builder**: Separates the construction and representation of complex objects, enhancing flexibility and maintainability.
 
 #### Structural Patterns
 
@@ -21,5 +21,5 @@ The purpose of this project is to provide simple & understandable examples of co
 #### Behavioral Patterns
 
 -   [x] **Strategy**: Allows selecting an algorithm at runtime, promoting flexibility and reusability.
--   [ ] **Observer**:
+-   [x] **Observer**: Eestablishes a one-to-many relationship, ensuring dependents are automatically notified of state changes.
 -   [ ] **Command**:
